@@ -503,4 +503,5 @@ tf_binary_free_state(gpointer s)
   tf_simple_func_free_state(&state->super);
 }
 
-TEMPLATE_FUNCTION(TFBinaryState, tf_binary, tf_binary_prepare, tf_simple_func_eval, tf_binary_call, tf_binary_free_state, NULL);
+TEMPLATE_FUNCTION(TFBinaryState, tf_binary, tf_binary_prepare, tf_simple_func_eval, tf_binary_call,
+                  tf_binary_free_state, NULL);
